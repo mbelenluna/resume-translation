@@ -416,6 +416,15 @@ section {
   grid-area: cv2;
 }
 
+@media screen and (max-width:450px) {
+  .cv-container {
+    grid-template-areas:
+    "cv1"
+    "cv2";
+    grid-template-columns: 100%;
+  }
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
